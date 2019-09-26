@@ -105,6 +105,10 @@ hr {
 /* #contact p.text-center, #contact div.col-md-6:nth-child(1) > div:nth-child(1) > p:nth-child(2), #social {
     max-width: 480px;
 } */
+#gallery img {
+    margin: 0 auto;
+    display: block;
+}
 #gallery h6 {
     font-style: italic;
     text-transform: uppercase;
