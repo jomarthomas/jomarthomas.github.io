@@ -16,12 +16,12 @@ $(document).ready(function () {
     });
 
     //Footer Year display
-    let d = new Date();
-    let y = d.getFullYear();
+    var d = new Date();
+    var y = d.getFullYear();
     $("#year").text(y);
 
     //Macy options
-    setTimeout(() => {
+    setTimeout(function() {
         Macy({
             container: ".gallery",
             trueOrder: false,
@@ -37,7 +37,7 @@ $(document).ready(function () {
     }, 250);
 
     //For Gallery 4 only 
-    setTimeout(() => {
+    setTimeout(function()  {
         Macy({
             container: ".gallery2",
             trueOrder: false,
