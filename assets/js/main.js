@@ -52,6 +52,21 @@ $(document).ready(function () {
         });
     }, 250);
 
+    setTimeout(function()  {
+        Macy({
+            container: ".gallery3",
+            trueOrder: false,
+            waitForImages: false,
+            margin: 14,
+            columns: 3,
+            breakAt: {
+                1200: 3,
+                940: 2,
+                400: 1
+            }
+        });
+    }, 250);
+
     //Macy and Mansory Setup
     // var pathName = window.location.pathname;
     // var match = pathName.match(/\d/g);
