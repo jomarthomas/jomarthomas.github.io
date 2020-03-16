@@ -8,7 +8,7 @@ body {
 }
 
 body p {
-  font-weight: 100s;
+  font-weight: 400;
 }
 
 nav {
@@ -28,6 +28,10 @@ nav .menuBtn {
 
 #desktopMenu {
   display: none;
+}
+
+#mobileMenu {
+  display: block;
 }
 
 #grid {
@@ -207,17 +211,16 @@ li i {
   border-bottom: none;
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 520px) {
   #main .menuBtn {
     display: none;
   }
   #desktopMenu {
-    display: inline;
+    display: block;
   }
-  #desktopMenu a {
-    padding: 1rem;
-    text-decoration: none;
-    color: #808080;
+  
+  #mobileMenu {
+    display: none;
   }
 }
 
