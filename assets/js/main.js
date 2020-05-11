@@ -59,6 +59,8 @@ function renderInfo() {
     $(".name").text(info[0].name);
     $("#about").text(info[0].about);
     $(".email").attr("href", "mailto:" + info[0].email);
+    $(".instagram").attr("href", info[0].instagram);
+    $(".twitter").attr("href", info[0].twitter);
 }
 
 macy = Macy({
