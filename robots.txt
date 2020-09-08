@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://jomarthomas.com/sitemap.xml
+
+Sitemap: https://www.jomar.photos/sitemap.xml

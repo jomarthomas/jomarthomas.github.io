@@ -4,18 +4,30 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
-  <loc>http://jomarthomas.com/</loc>
-  <lastmod>2019-04-08T04:03:05+00:00</lastmod>
+  <loc>https://www.jomar.photos/</loc>
+  <lastmod>2019-06-16T23:41:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://jomarthomas.com/index.html</loc>
-  <lastmod>2019-04-08T04:03:05+00:00</lastmod>
+  <loc>https://www.jomar.photos/views/pages/gallery1/index.html</loc>
+  <lastmod>2019-06-16T23:41:15+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jomar.photos/views/pages/gallery2/index.html</loc>
+  <lastmod>2019-06-16T23:41:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jomar.photos/views/pages/gallery3/index.html</loc>
+  <lastmod>2019-06-16T23:41:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jomar.photos/index.html</loc>
+  <lastmod>2019-06-16T23:41:15+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
